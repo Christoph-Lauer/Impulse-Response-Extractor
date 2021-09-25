@@ -19,11 +19,11 @@ IRExtractor::~IRExtractor()
 }
 
 
-// NOTE: This code should play and recors simultaneously but i didn't get sucess.
+// NOTE: This code should play and recors simultaneously but I didn't get sucess.
 // The player plays for his own and the recoder records for his own but i cannot duplex both.
 // I tried timers, maked the members static, used threads and connect all the
 // signals from the player to the stop method of the recorder without any success.
-// Cannot implement the rest of the signal analyze without the recording.
+// Cannot implement the rest of the signal analyze without the recording...
 void IRExtractor::on_sweepButton_clicked()
 {
     // PLAY
