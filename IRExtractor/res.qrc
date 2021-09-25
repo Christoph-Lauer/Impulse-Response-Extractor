@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/darkorange.stylesheet</file>
+        <file>res/ir.png</file>
+        <file>res/sweep.wav</file>
+    </qresource>
+</RCC>
