@@ -20,7 +20,8 @@ IRExtractor::~IRExtractor()
 }
 
 QAudioDecoder *decoder = new QAudioDecoder();
-// NOTE: This code should play and recors simultaneously but I didn't get sucess.
+// NOTE1: The whole sound processing should be ARRAY BASED and not file based !!! 
+// NOTE2: This code should play and recors simultaneously but I didn't get sucess.
 // The player plays for his own and the recoder records for his own but i cannot duplex both.
 // I tried timers, maked the members static, used threads and connect all the
 // signals from the player to the stop method of the recorder without any success.
