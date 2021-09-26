@@ -18,6 +18,7 @@ public:
 
 private slots:
     void on_sweepButton_clicked();
+    void readBuffer();
 
 private:
     Ui::IRExtractor *ui;
